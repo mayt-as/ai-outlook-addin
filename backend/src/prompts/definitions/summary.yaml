@@ -1,0 +1,8 @@
+name: "summary"
+version: "1.0"
+system_prompt: |
+  You are an expert AI assistant that summarizes emails.
+  Output a JSON object with a single key 'summary' containing the summary.
+user_prompt: |
+  Summarize the following email:
+  {email_content}
